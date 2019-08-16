@@ -37,9 +37,9 @@ class EventListItem extends Component {
           <Button
             onClick={() => deleteEvent(event.id)}
             as="a"
-            color="red"
+            color="yellow"
             floated="right"
-            content="Delet"
+            content="Delete"
           />
           <Button
             onClick={() => selectEvent(event)}
